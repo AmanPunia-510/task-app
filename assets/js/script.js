@@ -3,7 +3,7 @@ let task_btn = document.querySelector(".task-btn");
 let list_cont = document.querySelector(".list-container");
 
 task_btn.addEventListener("click", function () {
-    if (input.value === "") {
+    if (input.value.trim() === "") {
         alert("please enter your task");
     }
 
